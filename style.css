@@ -8,6 +8,7 @@ main {
     height: 100%;
     margin: 50px auto 0;
     width:100%;
+    padding: 10px;
 }
 
 nav {
@@ -19,14 +20,6 @@ nav {
     top: 0;
     left: 0;
     background-color: rgba(109, 163, 159, 1);
-}
-
-h3 {
-    display: unset;
-    text-align: center;
-    margin: 15px;
-    height: 20px;
-    width: 170px;
 }
 
 nav ul{
@@ -47,12 +40,8 @@ nav ul li {
 
 nav ul li ul {
     display: none;
-    width: inherit;
 }
 
-nav ul li ul li {
-    width: inherit;
-}
 nav ul li:hover {
     background-color: #66c9c2;
 }
@@ -66,8 +55,6 @@ nav ul li:hover ul {
 }
 
 nav ul li:hover ul li {
-    display: inherit;
-    position: inherit;
     background-color: #60c1ba;
 }
 
@@ -78,4 +65,13 @@ nav ul li:hover ul li:hover {
 a {
     text-decoration: none;
     color: #000000;
+}
+
+.title {
+    display: unset;
+    font-size: 1.17em;
+    font-weight: bold;
+    width: 170px;
+    height: 20px;
+    margin: 15px;
 }
